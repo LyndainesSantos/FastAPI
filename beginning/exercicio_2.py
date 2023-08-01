@@ -15,6 +15,6 @@ def read_root():
     return {"Identificador de Livros"}
 
 @app.get("/items/{item_id}")
-def read_item(item_id:int, title:str):
+def read_item(item_id:int):
     return {"ID": item_id,
-            "Title": title}
+            "Title": "Alice no País das Maravilhas"}

@@ -6,5 +6,6 @@ from fastapi import FastAPI
 app = FastAPI()
 
 @app.get("/hello/{name}")
-async def greet_person(name: str):
+def greet_person(name: str):
     return {"message": f"Olá, {name}! Bem-vindo ao FastAPI!"}
+

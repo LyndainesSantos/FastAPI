@@ -1,3 +1,5 @@
+# Através da API openweathermap construa a api para conseguir informações metereológicas a partir do nome da cidade
+
 from fastapi import FastAPI
 import httpx
 
